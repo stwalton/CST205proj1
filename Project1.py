@@ -1,3 +1,5 @@
+#https://github.com/stwalton/CST205proj1
+
 from PIL import Image, ImageFilter
 
 #defining variables/constructor
@@ -6,6 +8,8 @@ def med(mylist):
     sortedValues = sorted(mylist)
     middleIndex = (listlength + 1)//2 - 1
     return sortedValues[middleIndex]
+
+
 
 #Openening up pictures
 pictures = [] #pictures is a variable for storing how many pictures there are
