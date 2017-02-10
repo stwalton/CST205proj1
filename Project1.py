@@ -13,15 +13,15 @@ def med(mylist):
 
 #Openening up pictures
 pictures = [] #pictures is a variable for storing how many pictures there are
-pictures.append(Image.open("Images/1.png")) #Note to self. For opening up the img, just have the fold that the pictures are in
-pictures.append(Image.open("Images/2.png"))
-pictures.append(Image.open("Images/3.png"))
-pictures.append(Image.open("Images/4.png"))
-pictures.append(Image.open("Images/5.png"))
-pictures.append(Image.open("Images/6.png"))
-pictures.append(Image.open("Images/7.png"))
-pictures.append(Image.open("Images/8.png"))
-pictures.append(Image.open("Images/9.png"))
+pictures.append(Image.open("Images/1 - 1.png")) #Note to self. For opening up the img, just have the fold that the pictures are in
+pictures.append(Image.open("Images/2 - 1.png"))
+pictures.append(Image.open("Images/3 - 1.png"))
+pictures.append(Image.open("Images/4 - 1.png"))
+pictures.append(Image.open("Images/5 - 1.png"))
+pictures.append(Image.open("Images/6 - 1.png"))
+pictures.append(Image.open("Images/7 - 1.png"))
+pictures.append(Image.open("Images/8 - 1.png"))
+pictures.append(Image.open("Images/9 - 1.png"))
 
 #Defining variables    
 Width, Height = pictures[0].size #Will set the width and height of the final image
